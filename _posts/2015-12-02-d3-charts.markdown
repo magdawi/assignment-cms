@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "D3 Charts"
+title:  "D3.js"
 date:   2015-12-02 13:06:29 +0100
 categories: cms-posts
 ---
@@ -11,24 +11,67 @@ categories: cms-posts
 
 <h3>Allgemeines</h3>
 
-<p>text</p>
+<p>
+	D3 steht für Data-Driven-Documents und ist eine JavaScript Library für dynamische, interaktive Daten Visualisierungen im Browser. Es benutzt die HTML5, CSS und SVG Standards um sehr gute Kontrolle über das visuelle Endresultat zu garantieren.<br><br>
 
-<h3>Elemente</h3>
+	<a href="http://d3js.org/">» mehr zu D3.js</a><br><br>
 
-<p>text</p>
+	<strong>Code Snippet</strong>
+	{% highlight javascript %}
+	var svg = d3.select("#hook").append("svg")
+        	.attr("width", 120)
+        	.attr("height", 120)
+        	.style("fill", "#D0D0D0");
 
-<h3>Vorteile</h3>
+        svg
+        	.append("circle")
+        	.attr("id", 'circle1')          
+        	.attr("cx", 50px)  
+        	.attr("cy", 50px)          
+        	.attr("r",  150px)   
+        	.attr("fill", 'blue'); 
+    {% endhighlight %}
+</p>
 
-<ul>
-	<li>text</li>
-</ul>
 
-<h3>Nachteile</h3>
+<h3>Charts</h3>
 
-<ul>
-	<li>text</li>
-</ul>
+<p>
+	<a href="https://github.com/mbostock/d3/wiki/Gallery">» See all D3 Charts</a>
+</p>
+
+<h4>Bubble-Chart</h4>
+<p>
+	Eine Bubble Chart besteht aus einem Kreis, in dem der gegebene Wert zu sehen ist. Visuell dargestellt wird dieser Wert durch einen sogenannten 'Liquid Fill Gauge', was eine Flüssigkeit in dem Kreis simuliert (je nach Verhältnis vom gegebenen Wert zum maximalen Wert).
+</p>
+
+<img src="../../../../assets/bubblechart.gif" alt="bubblechart" class="charts">
+
+<p>
+	<a href="http://bl.ocks.org/brattonc/5e5ce9beee483220e2f6">» mehr zum Liquid Fill Gauge</a>
+</p>
+
+<h4>Bar-Chart</h4>
+
+<p>
+	Eine Bar Chart ist eine sehr verbreitete Darstellung von z.B. Statistiken. Hierbei werden mehrere Werte in einem Koordinatensystem (x- & y-Achse), mit einem Balken / Rechteck dargestellt.
+</p>
+
+<img src="../../../../assets/barchart.png" alt="barchart" class="charts">
+
+<h4>Geo-Chart</h4>
+
+<p>
+	Bei einer Geo Chart werden auf einer Landkarte (hier: Weltkarte) einzelne Punkte makiert. In diesem Beispiel werden 10 Rennstrecken der Formel1 abgebildet.
+</p>
+
+<img src="../../../../assets/geochart.png" alt="geochart" class="charts">
 
 <h3>Eigene Meinung</h3>
 
-<p>text</p>
+<p>
+	Mit D3.js lassen sich sehr viele visuelle Outputs relativ einfach erstellen. Man hat sehr viel Kontrolle was schlussendlich grafisch dargestellt wird.<br>
+	<strong>» D3 is cool !</strong>
+</p>
+
+<h4><a href="https://github.com/magdawi/assignment-frontend/tree/master/06-diagrams">» Link zur Abgabe der D3.js Charts [Github Repo]</a></h4>
