@@ -11,24 +11,61 @@ categories: cms-posts
 
 <h3>Allgemeines</h3>
 
-<p>text</p>
+<p>
+	Drupal ist ein, auf PHP basierendes, Content Management System, das vom belgischen Informatiker Dries Buytaert entwickelt wurde.<br><br>
 
-<h3>Features</h3>
+	Es besteht aus den Grundfunktionalitäten (dem Core) und mehreren Modulen, die den Core beliebig erweitern. So werden vielfache Funktionen ermöglicht, wie zum Beispiel Blogs, Umfragen, Online-Communitys und vieles mehr.<br><br>
 
-<p>text</p>
+	Bei Drupal hat jeder Inhalt die gleiche Basis Information. Jeder Inhalt ist ein Node, der die Grundinformationen, wie 'Title', 'Body', 'Author' und 'Publish-Date', enthält. Für jeden neuen Node (z.B. ein Bild) wird eine neue Tabelle angelegt mit zusätzlichen Spalten für Eigenschaften und der Beziehung zum Hauptknoten. Somit werden häufige null-Einträge vermieden und Drupal bleibt durch den Aufbau aus Nodes unendlich erweiterbar. Die Nodes können zusätzlich beliebig arrangiert werden, da sie nicht fix gebunden sind.<br><br>
+
+	Das templating funktioniert bei Drupal mittels In-Contenting (Seite sieht genau gleich aus wie Backend, nur ohne die Editing Funktion). Vorallem für Personen ohne Programmier-Hintergrund ist die Editing Funktion leichter nachzuvollziehen. Um die Seite zu bearbeiten muss man nur an Ort und stelle etwas ergänzen, wie zum Beispiel zusätzliche Navigationspunkte mit denen sofort eine Seite ohne Content miterstellt wird. Viele Elemente des In-Contenting werden durch Drag and Drop hinzugefügt, verändert oder gelöscht. Durch dieses Feature, was das editieren zwar einfacher macht, wird die Erstellung von neuen Templates unnötig aufwendig. Empfohlen wird, ein bestehendes Template zu verwenden und dieses auf die eigenen Anforderungen umzubauen.
+</p>
+
+<h3>Seiten die <strong>Drupal</strong> verwenden</h3>
+
+<ul>
+	<li>
+		<a href="https://uk.lush.com/" target="_blank">Lush</a>
+	</li>
+	<li>
+		<a href="http://www.designcouncil.org.uk/" target="_blank">Design Council</a>
+	</li>
+	<li>
+		<a href="http://www.shamballajewels.com/" target="_blank">Shamballa Jewels</a>
+	</li>
+</ul>
+
+<h3>Elemente</h3>
+
+<ul>
+	<li>PHP</li>
+	<li>MySQL/MariaDB</li>
+	<li>PostgreSQL</li>
+	<li>SQLite</li>
+	<li>Oracle</li>
+	<li>MSSQLServer</li>
+	<li>Twig as Template Engine</li>
+</ul>
 
 <h3>Vorteile</h3>
 
 <ul>
-	<li>text</li>
+	<li>Open Source</li>
+	<li>differenzierte Rollen- & Rechtesystem</li>
+	<li>starke Online-Community</li>
+	<li>Versionierung der Inhalte</li>
 </ul>
 
 <h3>Nachteile</h3>
 
 <ul>
-	<li>text</li>
+	<li>es kann vieles – aber nichts richtig gut</li>
+	<li>Themes sind schiwerig zu erstellen (Editing Funktion muss unterstützt werden)</li>
+	<li>kompliziertes Backend</li>
 </ul>
 
 <h3>Eigene Meinung</h3>
 
-<p>text</p>
+<p>
+	Meiner Meinung nach ist Drupal ein vielseitiges CMS mit interessantem Aufbau. Jedoch ist es für spezielle und eindeutige Verwendungen zu wenig ausgebaut bzw. zu wenig spezialisiert.
+</p>
