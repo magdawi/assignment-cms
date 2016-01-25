@@ -11,34 +11,57 @@ categories: cms-posts
 
 <h3>Allgemeines</h3>
 
-<p>text</p>
+<p>
+	Typo3 ist ein Content Management System, das von dem Dänen Kasper Skårhøj erfunden wurde. Früher wurden unter dem Namen Typo3 zwei verschiedene Projekte geführt (Typo3 CMS und Typo3 Neos), wobei sich Neos 2015 abspaltete und seitdem als eigenes Produkt weiterentwickelt wird.<br><br>
+
+	Über viele Fremdanbieter werden meist kostenlose Erweiterungen angeboten, mit denen man zum Beispiel Shop-Systeme, Diskussionsforen und News einbauen kann, ohne den eigenen Code zu entwickeln. Typo3 wird besonders oft im deutschsprachigen Raum verwendet, jedoch ist es durch die Auslegung auf die Mehrsprachigkeit auch in der restlichen Welt weit verbreitet. Webagenturen, wie zum Beispiel Pixelart, verwenden Erweiterungen wie das Bartacus Bundle, dass den Symfony Full Stack in Typo3 integriert.<br><br>
+
+
+	Die Einarbeitung eines neuen Entwicklers in ein bereits bestehendes System, ist nur sehr schwer umzusetzen, da man durch fehlende Konventionen verleitet wird, nicht nach den Best Practices zu arbeiten. Weiteres müssen sich Typo3-Verwender intensiv mit der Metasprache Typoscript befassen.<br><br>
+
+	Die Nutzung von Typo3 beinhaltet 3 große Teilbereiche: Erstellung des Templates, Konfiguration mit Typoscript und die Verwaltung des Contents.
+	Im Gegensatz zu Drupal, sind Backend und Frontend getrennt, wobei gewisse Inhalte jedoch auch direkt im Frontend bearbeitet werden. Für Anwender ohne Programmier-Kenntnisse verwendet das Backend WYSIWYG-Editoren.
+</p>
 
 <h3>Seiten die <strong>Typo3</strong> verwenden</h3>
 
 <ul>
-	<li><a href=""></a> </li>
-	<li><a href=""></a> </li>
-	<li><a href=""></a> </li>
+	<li><a href="http://www.webex.com/">Cisco WebEx</a></li>
+	<li><a href="http://www.epson.at/">Epson</a></li>
+	<li><a href="http://www.unicef.de/">Unicef</a></li>
 </ul>
 
 <h3>Elemente</h3>
 
 <ul>
-	<li>text</li>
+	<li>PHP</li>
+	<li>MySQL/MariaDB</li>
+	<li>PostgreSQL</li>
+	<li>Oracle</li>
+	<li>Typoscript</li>
 </ul>
 
 <h3>Vorteile</h3>
 
 <ul>
-	<li>text</li>
+	<li>zeitliche Steuerung zum Ein- & Ausblenden von Inhalten</li>
+	<li>Benutzerverwaltung</li>
+	<li>Mehrsprachigkeit</li>
 </ul>
 
 <h3>Nachteile</h3>
 
 <ul>
-	<li>text</li>
+	<li>nicht am neuesten Stand</li>
+	<li>man wird verleitet nicht nach Best Practices zu arbeiten</li>
+	<li>alte & komplexe Code-Basis</li>
+	<li>schlechtes Datenbankdesign</li>
+	<li>Verwendung von Symfony Konsole ist eingeschränkt</li>
+	<li>kein Support vom Hersteller (nur Community)</li>
 </ul>
 
 <h3>Eigene Meinung</h3>
 
-<p>text</p>
+<p>
+	Durch zahlreiche Minuspunkte, wie fehlender Support vom Hersteller, schlechtes Datenbankdesign usw. bin ich persönlich nicht von diesem CMS überzeugt.
+</p>
